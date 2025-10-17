@@ -1,0 +1,100 @@
+# Resultado da compilação e empacotamento
+#####################################
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-check-report.html
+dependency-check-report.json
+
+# Gradle
+build/
+.gradle/
+!gradle-wrapper.jar
+
+# Logs
+#####################################
+*.log
+logs/
+*.log.*
+*.trace
+
+# Configurações da IDE
+#####################################
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+tmp/
+.springBeans
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+nbbuild/
+.nb-gradle/
+.nb-tooling/
+*.zip
+
+# Visual Studio Code
+.vscode/
+
+# Arquivos temporários do Sistema Operacional
+#####################################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Variáveis de ambiente e segredos (MUITO IMPORTANTE!)
+#####################################
+# Não commitar arquivos de configuração que contenham senhas/chaves
+# Use variáveis de ambiente ou ferramentas de gerenciamento de segredos
+# Exemplo para Spring Boot:
+src/main/resources/application*.properties
+src/main/resources/application*.yml
+!src/main/resources/application.properties  # Se você quer o arquivo base (sem segredos)
+!src/main/resources/application.yml        # Se você quer o arquivo base (sem segredos)
+
+# Arquivos de segurança
+*.key
+*.jks
+*.p12
+
+# Maven Wrapper
+#####################################
+# O jar do wrapper não precisa ser versionado, apenas os scripts
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle Wrapper
+#####################################
+# O jar do wrapper NÃO deve ser ignorado. 
+# Se for ignorado, o wrapper não funcionará para outros desenvolvedores.
+# Certifique-se de que a linha `!gradle-wrapper.jar` esteja presente em `.gradle/`
+
+# Dependências (se não estiver usando gerenciador de dependências como Maven/Gradle)
+#####################################
+# Ignore a pasta se você estiver usando dependências externas que serão baixadas
+# libs/ 
+# lib/
+
